@@ -15,12 +15,12 @@ section {
     display: flex;
 }
 
-.half-width {
+.top-part {
     width: 50%;
     padding-left: 5%;
 }
 
-.half-width img {
+.top-part img {
     width: 70%;
     padding-left: 20%;
 }
@@ -37,4 +37,20 @@ section {
 .top {
     background-image: url(images/images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.middle-part {
+    width: 50%;
+    padding-right: 10%;
+
+}
+
+.middle-part img {
+    width: 70%;
+}
+
+.middle {
+    background-image: url(images/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
 }
