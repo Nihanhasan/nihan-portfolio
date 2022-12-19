@@ -1,19 +1,19 @@
 body {
     margin: 0%;
+
+
 }
 
 h1 {
     font-family: 'Chivo Mono', monospace;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .orange-color {
     color: orange;
 }
 
-section {
-    display: flex;
-}
+
 
 .top-part {
     width: 50%;
@@ -30,7 +30,7 @@ section {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
     color: antiquewhite;
-    border-radius: 15%;
+    border-radius: 12%;
     font-weight: 800;
 }
 
@@ -53,4 +53,41 @@ section {
     background-image: url(images/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: center right;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.last-part {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-left: 10px;
+    border-radius: 40px;
+}
+
+.last-part {
+    box-shadow: 10px 10px 50px gray;
+
+}
+
+.last {
+    background-image: url(images/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#right-last {
+    border-left: 10px solid blue;
+}
+
+#left-last {
+    border-left: 10px solid orange;
+}
+
+footer p {
+    padding-top: 5%;
+    text-align: center;
 }
