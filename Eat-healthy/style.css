@@ -1,0 +1,30 @@
+h1 {
+    font-size: 60px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.top {
+    display: flex;
+}
+
+.top-part {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.top-part img {
+    width: 100%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(251, 115, 92);
+
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
